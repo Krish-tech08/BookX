@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="ClassCircle">
+    <item name="android:layout_width">70dp</item>
+    <item name="android:layout_height">70dp</item>
+    <item name="android:gravity">center</item>
+    <item name="android:layout_marginEnd">12dp</item>
+    <item name="android:backgroundTint">#0E24A9</item> <!-- Light green -->
+    <item name="android:textColor">#000000</item>
+    <item name="android:textSize">22sp</item>
+    <item name="android:fontFamily">@font/yeon_sung</item>
+    <item name="android:background">@drawable/class_circle_bg</item>
+</style>
+</resources>

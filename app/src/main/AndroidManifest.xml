@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Required only if your app relies on physical camera -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" /> <!-- Permissions -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:enableOnBackInvokedCallback="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BookX"
+        tools:targetApi="31">
+        <activity
+            android:name=".Orderdetails"
+            android:exported="false" />
+        <activity android:name=".EditProfileActivity" />
+        <activity
+            android:name=".OrderPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".faq"
+            android:exported="false" />
+        <activity
+            android:name=".termsndcondition"
+            android:exported="false" />
+        <activity
+            android:name=".plus_membership"
+            android:exported="false" />
+        <activity
+            android:name=".Saved_Adress"
+            android:exported="false" />
+        <activity
+            android:name=".Add_Adress"
+            android:exported="false" />
+        <activity
+            android:name=".orderconfirmed"
+            android:exported="false" /> <!-- FileProvider declaration -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider> <!-- Activities -->
+        <activity
+            android:name=".payment_page"
+            android:exported="false" />
+        <activity
+            android:name=".orederSummary"
+            android:exported="false" />
+        <activity
+            android:name=".Product_page_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Seller_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Location_access"
+            android:exported="false" />
+        <activity
+            android:name=".bookx_signup"
+            android:exported="false" />
+        <activity
+            android:name=".bookx_login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustPan"/> <!-- Launcher activity -->
+        <activity
+            android:name=".bookx_splashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Optional: Font preloading -->
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

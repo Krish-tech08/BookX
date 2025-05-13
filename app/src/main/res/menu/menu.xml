@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="Home" android:icon="@drawable/home___svg_1" android:id="@id/homeFragment"/>
+<item android:title="Category" android:icon="@drawable/category_2_svgrepo_com" android:id="@id/categoryFragment"/>
+<item android:title="Cart" android:icon="@drawable/cart_shopping_svgrepo_com" android:id="@id/cartFragment"/>
+<item android:title="Account" android:icon="@drawable/profile_round_1342_svgrepo_com" android:id="@id/accountFragment"/>
+
+</menu>

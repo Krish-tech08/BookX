@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.AccountFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:elevation="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#BFBAFD"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/nametextview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/antic_didone"
+                android:text="Hi Ravi"
+                android:textColor="#363535"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="385dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="16dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/orderdirect"
+                android:layout_width="150dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="16dp"
+                android:background="@drawable/accnt_btn"
+                android:drawableLeft="@drawable/write_order_order_online_shop_svgrepo_com_1"
+                android:drawablePadding="-50dp"
+                android:fontFamily="@font/yeon_sung"
+                android:paddingLeft="20dp"
+                android:text="Orders"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button8"
+                android:layout_width="150dp"
+                android:layout_height="38dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/accnt_btn"
+                android:drawableLeft="@drawable/heart_mark_2_svgrepo_com_1"
+                android:drawablePadding="-30dp"
+                android:fontFamily="@font/yeon_sung"
+                android:paddingStart="16dp"
+                android:text="Wishlist"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView3">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:text="Account Setting"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/editprofile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/plusmember">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/profile_svg_2_2"
+                    android:drawablePadding="8dp"
+                    android:paddingStart="10dp"
+
+                    android:text="Edit Profile"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="220dp"
+                    android:layout_marginTop="3dp"
+                    android:paddingTop="3dp"
+                    android:src="@drawable/right_arrow_backup_2_svgrepo_com_2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal"
+                android:paddingLeft="1dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editprofile">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/notification_svg_1"
+
+                    android:drawablePadding="5dp"
+                    android:paddingStart="10dp"
+                    android:text="Notification"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="210dp"
+                    android:layout_marginTop="3dp"
+                    android:paddingTop="3dp"
+                    android:src="@drawable/right_arrow_backup_2_svgrepo_com_2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/save_address"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal"
+                android:paddingLeft="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/location_svg_1"
+                    android:drawablePadding="5dp"
+                    android:text="Saved Address" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="3dp"
+                    android:paddingTop="3dp"
+                    android:src="@drawable/right_arrow_backup_2_svgrepo_com_2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/plusmember"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView15">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/diamond_svgrepo_com_1"
+                    android:drawablePadding="10dp"
+                    android:text="Plus Membership" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="3dp"
+                    android:paddingLeft="4dp"
+                    android:paddingTop="3dp"
+                    android:src="@drawable/right_arrow_backup_2_svgrepo_com_2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/browsefaq"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:paddingLeft="18dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/termsndcodition">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/question_svgrepo_com_1"
+                    android:drawablePadding="10dp"
+                    android:text="Browse FAQs" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="208dp"
+                    android:layout_marginTop="3dp"
+                    android:paddingTop="3dp"
+                    android:src="@drawable/right_arrow_backup_2_svgrepo_com_2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/termsndcodition"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal"
+                android:paddingLeft="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/save_address">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/terms_policies_svg_1"
+                    android:drawablePadding="10dp"
+                    android:text="Terms, Policies and Licenses" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="3dp"
+                    android:paddingTop="3dp"
+                    android:src="@drawable/right_arrow_backup_2_svgrepo_com_2" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/logout"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/accnt_btn"
+        android:elevation="20dp"
+        android:text="Log Out"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/cardView19"
+        app:layout_constraintStart_toStartOf="@+id/cardView19"
+        app:layout_constraintTop_toBottomOf="@+id/cardView19" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "677749995149",
+    "project_id": "bookx-dbf05",
+    "storage_bucket": "bookx-dbf05.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677749995149:android:05576a7c409390272f14c4",
+        "android_client_info": {
+          "package_name": "com.example.bookx"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKOBZJwMeCigeXMZhWf3aF9-sgeVnz3_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
