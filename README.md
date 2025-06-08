@@ -32,7 +32,7 @@
 ## 📸 Screenshots
 
 ### 🏠 Home Screen
-![Home Screen](screenshots/home_screen.png)
+![Home Screen](BookX/Screenshot 2025-06-08 195744.png)
 ## Product Page
 ![Product Page Display](productdisplay)
 ## Profile Page
