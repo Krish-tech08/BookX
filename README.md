@@ -31,13 +31,14 @@
 
 ## 📸 Screenshots
 
-### 🏠 Home Screen
-![Home Screen](BookX/Screenshot 2025-06-08 195744.png)
-## Product Page
-![Product Page Display](productdisplay)
-## Profile Page
-![Profile](profile)
+### Home Screen
+![Home Screen](Screenshot%202025-06-08%20195744.png)
 
+### Product Display
+![Product Display](Screenshot%202025-06-08%20195755.png)
+
+### Profile Screen
+![Profile Screen](Screenshot%202025-06-08%20195857.png)
 
 ---
 
