@@ -46,15 +46,25 @@
 
 BookX/
 ├── app/
+
 │ ├── src/
+
 │ │ ├── main/
+
 │ │ │ ├── java/com/example/bookx/
+
 │ │ │ │ ├── ui/ # Activities & Fragments
+
 │ │ │ │ ├── model/ # Data Models
+
 │ │ │ │ ├── viewmodel/ # ViewModels
+
 │ │ │ │ ├── adapter/ # RecyclerView Adapters
+
 │ │ │ │ └── utils/ # Helpers, SharedPrefs
+
 │ │ │ ├── res/ # Layouts, Drawables, Values
+
 │ │ │ └── AndroidManifest.xml
 
 
@@ -106,5 +116,6 @@ Real-world app structure and debugging
 Hi! I'm Krish, a beginner Android Developer passionate about turning ideas into real apps. BookX is my first representable project after building several practice apps and learning through mistakes. I’m currently working on my next project where I’ll explore more advanced Android and backend concepts.
 
 📫 Connect with Me
+
 [LinkedIn](https://www.linkedin.com/in/krish-kumar-chaurasia-073a91310?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)  
-GitHub
+[GitHub](https://github.com/Krish-tech08)
